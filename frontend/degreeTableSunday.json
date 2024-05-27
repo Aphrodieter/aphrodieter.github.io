@@ -1,0 +1,43 @@
+{
+    "Hat": {
+        "degrees": [315,360],
+        "probability": 0.25,
+        "fullText": "Hat"
+    },
+    "Fans": {
+        "degrees": [180,225],
+        "probability": 0.25,
+        "fullText": "Fan"
+    },
+    "Stickers": {
+        "degrees": [135,180],
+        "probability": 0.2,
+        "fullText": "Sticker"
+    },
+    "Cards": {
+        "degrees": [90,135],
+        "probability": 0.15,
+        "fullText": "Trading Card"
+    },
+    "SunWatch": {
+        "degrees": [45,90],
+        "probability": 0.08,
+        "fullText": "Two tickets to the Sunday Evening Session Watch Party"
+    },
+    "SunArena": {
+        "degrees": [270,315],
+        "probability": 0.04,
+        "fullText": "Two tickets to the Sunday Evening Session Arena"
+    },
+    "SunMeet": {
+        "degrees": [225,270],
+        "probability": 0.02,
+        "fullText": "Two tickets to the Sunday Evening Session Arena + Meet & Greet"
+    },
+    "Monitor": {
+        "degrees": [0,45],
+        "probability": 0.01,
+        "fullText": "LoL Edition Monitor"
+    }
+    
+}

@@ -1,0 +1,69 @@
+body
+    {
+        overflow: hidden;
+        
+    }
+    #wrapper
+    {
+        position: relative;
+
+
+    }
+    .glücksrad
+    {
+        display: block;
+
+        position: relative;
+        width: 45%;
+        height: 100%;
+        margin: auto auto;
+       
+    }
+
+    .anzeigepfeil
+    {
+        position: absolute;
+        width: 10%;
+        height: auto;
+        top: -10%;
+        left: 44.7%;
+
+       
+    }
+
+    .popup {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #0080005d;
+        
+        display: none;
+        text-align: center;
+    }
+    .popup-content {
+        background-color: rgb(255, 255, 255);
+        margin: 10% auto;
+        padding: 20px;
+        border: 5px solid #888888;
+        width: 30%;
+        font-weight: bolder;
+    }
+    .popup-content button {
+        display: block;
+        margin: 0 auto;
+    }
+    .show
+    {
+        display: block;
+    }
+
+    .popup button
+    {
+        margin-top: 10px;
+    }
+
+   

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Wheel of Fortune Saturday</title>
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        let jsonName = "degreeTableSaturday.json";
+    </script>
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <img id= "glücksrad" src="glücksrad_platzhalter_actualPreise.png" alt=""  class="glücksrad">
+    <img src="Anzeigepfeil_platzhalter.png" alt="" class="anzeigepfeil">
+</div>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h1 style="color: #008000">
+            Du hast ein Dreieck gewonnen!
+        </h1>
+        <p>Herzlichen Glückwunsch</p>
+        <button id="acceptButton">
+            Accept
+        </button>
+        <button id="declineButton">
+            Decline
+        </button>
+    </div>
+</div>
+    
+    
+</body>
+</html>
